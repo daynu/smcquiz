@@ -41,7 +41,7 @@
       "Registrul de intrare/ieșire digitală",
       "Registrul de configurare a funcțiilor speciale"
     ],
-    "answer": ["Registrul de setare a direcției datelor", "Registrul corespunzător portului", "Registrul de configurare a funcțiilor speciale"]
+    "answer": ["Registrul de setare a direcției datelor", "Registrul corespunzător portului"]
   },
   {
     "question": "Ce presupune ACK în cadrul comunicării I2C?",
