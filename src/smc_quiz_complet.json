@@ -178,17 +178,6 @@
     "answer": ["Un circuit de tip Trigger Schmitt", "Un circuit de tip latch"]
   },
   {
-    "question": "Cum se pot elimina oscilațiile nedorite apărute la apăsarea/comutarea unui buton?",
-    "options": [
-      "Cu ajutorul unui regulator PI",
-      "Cu ajutorul unui filtru RC",
-      "Cu ajutorul unui filtru antialias",
-      "Cu ajutorul unui filtru trece-bandă",
-      "Cu ajutorul unor filtre software"
-    ],
-    "answer": ["Cu ajutorul unui filtru RC", "Cu ajutorul unor filtre software"]
-  },
-  {
     "question": "Ce conține fiecare poziție din tabelul vectorilor de întrerupere?",
     "options": [
       "Valoarea priorității asociate întreruperii curente",
@@ -197,17 +186,6 @@
       "Adresa de întoarcere după finalizarea codului din întrerupere"
     ],
     "answer": "Adresa de memorie care indică locația de start a ISR-ului asociat"
-  },
-  {
-    "question": "Ce este rezoluția unui ADC?",
-    "options": [
-      "Un factor invers proporțional cu eroarea de cuantizare",
-      "Un factor direct proporțional cu eroarea de cuantizare",
-      "Numărul de stări de ieșire posibile",
-      "Numărul de oscilații necesare pentru a se realiza o conversie",
-      "Frecvența la care se face conversia"
-    ],
-    "answer": ["Numărul de stări de ieșire posibile", "Un factor direct proporțional cu eroarea de cuantizare"]
   },
   {
     "question": "Alegeți caracteristici ale memoriei EEPROM:",
@@ -698,16 +676,6 @@
     "answer": ["Permite configurarea funcționalităților, precum I2C, SPI", "Când este configurat un bit al acestui registru, funcția de GPIO este anulată"]
   },
   {
-    "question": "Standardul RS-232 este responsabil pentru:",
-    "options": [
-      "Definirea semnalelor electrice care sunt utilizate de microcontroller pentru comunicarea UART",
-      "Mecanismul de transfer al datelor din punct de vedere al specificațiilor electrice",
-      "Mecanismul de transfer al datelor din punct de vedere al numărului de biți",
-      "Metoda prin care se pot conecta mai multe dispozitive UART la un master"
-    ],
-    "answer": ["Mecanismul de transfer al datelor din punct de vedere al specificațiilor electrice"]
-  },
-  {
     "question": "Ce este rezoluția unui ADC?",
     "options": [
       "Un factor invers proporțional cu eroarea de cuantificare",
@@ -761,16 +729,6 @@
     "answer": ["Durata totală a unui ciclu complet al semnalului PWM", "Numărul de repetări dintr-o secundă a unui ciclu complet al semnalului PWM", "Nivelul maxim al tensiunii în starea logică de High al semnalului PWM", "Proporția din perioada totală în care semnalul PWM este „on”"]
   },
   {
-    "question": "Ce presupune ACK în cadrul comunicării I2C?",
-    "options": [
-      "Presupune trecerea SCL în starea low",
-      "Presupune trecerea SCL în starea high",
-      "Presupune trecerea SDA în starea high",
-      "Presupune trecerea SDA în starea low"
-    ],
-    "answer": ["Presupune trecerea SDA în starea low"]
-  },
-  {
     "question": "Este adevărată afirmația: „Un timer monitorizează semnale care au o distribuție aleatoare în timp”?",
     "options": [
       "Adevărat",
@@ -811,14 +769,6 @@
       "Conțin indicatori specifici, precum zero, semn, paritate"
     ],
     "answer": ["Stochează informații legate de starea procesorului", "Stochează rezultatul ultimei operații aritmetice sau logice", "Conțin indicatori specifici, precum zero, semn, paritate", "Pot controla aspecte specifice ale execuției unui program"]
-  },
-  {
-    "question": "Se poate reseta un RTC?",
-    "options": [
-      "Adevărat",
-      "Fals"
-    ],
-    "answer": ["Fals"]
   },
   {
     "question": "Completați cu principalele etape ale procesului de conversie analog-numerică",
@@ -862,16 +812,6 @@
     "answer": ["Adevărat"]
   },
   {
-    "question": "Alegeți caracteristici ale unui ciclu de instrucțiune:",
-    "options": [
-      "Conferă un număr fix de pulsuri, indiferent de instrucțiune",
-      "Este obținut de la circuitul oscilator",
-      "Este generat de modulul intern de timer",
-      "Este obținut din n pulsuri de ceas"
-    ],
-    "answer": ["Este obținut de la circuitul oscilator", "Este obținut din n pulsuri de ceas"]
-  },
-  {
     "question": "Alegeți afirmațiile corecte, legate de fenomenul de aliasing:",
     "options": [
       "Prevenirea acestui fenomen presupune creșterea ratei de eșantionare (dublă față de frecvența maximă a semnalului)",
@@ -892,18 +832,6 @@
       "Sistemul de întreruperi este oprit"
     ],
     "answer": ["Controlul programului este transferat la rutina de întrerupere", "Sistemul de întreruperi este oprit", "Se încarcă adresa de început a rutinei de întrerupere", "Se execută rutina de întrerupere", "Când RETI este atins se revine la programul principal"]
-  },
-  {
-    "question": "Un timer se poate utiliza pentru a:",
-    "options": [
-      "Măsura frecvența unui semnal extern",
-      "Genera întreruperi la intervale de timp regulate",
-      "Valida timpul de achiziție a unui semnal analogic, pe modul configurat de intrare (pentru porturi)",
-      "Genera semnale periodice (cu formă specifică)",
-      "Controla direct viteza de execuție a instrucțiunilor procesorului",
-      "Număra într-un anumit interval de timp"
-    ],
-    "answer": ["Număra într-un anumit interval de timp", "Genera semnale periodice (cu formă specifică)", "Genera întreruperi la intervale de timp regulate", "Măsura frecvența unui semnal extern"]
   },
   {
     "question": "Care dintre următoarele afirmații reprezintă funcționalități de bază pentru un depanator incorporat (embedded):",
@@ -974,28 +902,6 @@
     "answer": ["Prezenta ierarhia dintre subsisteme", "Prezenta interacțiunea dintre componentele software și hardware", "Prezenta interfețele către alte module"]
   },
   {
-    "question": "Care dintre următoarele afirmații legate de protecția pinilor digitali este adevărată?",
-    "options": [
-      "Utilizarea unor limitatoare de curent sau circuite de protecție la scurtcircuit",
-      "Utilizarea unor senzori de temperatură interni care să monitorizeze temperatura cipului",
-      "Utilizarea de circuite de limitare a tensiunii la un nivel sigur",
-      "Utilizarea de diode de protecție la alimentare care blochează curentul invers",
-      "Protecție utilizând diode specializate la pini de intrare/ieșire pentru descărcările electrice statice"
-    ],
-    "answer": ["Protecție utilizând diode specializate la pini de intrare/ieșire pentru descărcările electrice statice", "Utilizarea de circuite de limitare a tensiunii la un nivel sigur", "Utilizarea unor limitatoare de curent sau circuite de protecție la scurtcircuit", "Utilizarea de diode de protecție la alimentare care blochează curentul invers", "Utilizarea unor senzori de temperatură interni care să monitorizeze temperatura cipului"]
-  },
-  {
-    "question": "Tabela vectorilor de întrerupere:",
-    "options": [
-      "este legătura între întrerupere și funcția ISR corespunzătoare",
-      "este reprezentată sub formă de tabel ce conține informații despre întreruperi",
-      "facilitează prioritizarea sistemului de întreruperi",
-      "este legătura între întreruperi și rutina de întrerupere",
-      "este identică ca valori cu valorile din PC"
-    ],
-    "answer": ["este legătura între întreruperi și rutina de întrerupere", "este reprezentată sub formă de tabel ce conține informații despre întreruperi"]
-  },
-  {
     "question": "Cum se poate modifica frecvența semnalului PWM:",
     "options": [
       "Schimbarea valorii de prescalare",
@@ -1023,17 +929,6 @@
       "Compararea unui semnal cu o mărime de referință"
     ],
     "answer": ["Compararea a două semnale", "Compararea unui semnal cu o mărime de referință"]
-  },
-  {
-    "question": "Unitatea centrală de procesare:",
-    "options": [
-      "Monitorizează și controlează toate procesele din interiorul unui microcontroller",
-      "Nu poate executa instrucțiuni de ramificare",
-      "Formată din două unități funcționale: UAL și UC",
-      "Unitatea centrală de procesare conține memoria RAM și ROM integrată",
-      "Conexiune cu exteriorul utilizând magistrale de date, adrese și control"
-    ],
-    "answer": ["Monitorizează și controlează toate procesele din interiorul unui microcontroller", "Formată din două unități funcționale: UAL și UC", "Conexiune cu exteriorul utilizând magistrale de date, adrese și control"]
   },
   {
     "question": "Alegeți caracteristici ale arhitecturii Von-Neumann",
