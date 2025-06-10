@@ -621,12 +621,15 @@
     "answer": "Adevărat"
   },
   {
-    "question": "La interfața de comunicație sincronă este necesar să se stabilească de la începutul comunicației rata de transfer",
+    "question": "Alegeti afirmatiile corecte: ",
     "options": [
-      "Adevărat",
-      "Fals"
+      "La interfata de comunicatie asincrona este necesar sa se stie de la inceputul comunicatiei rata de transfer",
+      "La interfata de comunicatie sincrona este necesar sa se stie de la inceputul comunicatiei rata de transfer",
+      "Interfetele sincrone prezinta risc mic de erori de sincronizare intre E si R",
+      "La interfata sincrona este necesara utilizarea unor marcaje de start si stop"
     ],
-    "answer": "Fals"
+    "answer": ["La interfata de comunicatie asincrona este necesar sa se stie de la inceputul comunicatiei rata de transfer",
+    "Interfetele sincrone prezinta risc mic de erori de sincronizare intre E si R"]
   },
   {
     "question": "Cum se poate prescurta următoarea configurație pentru parametrii de configurare: 6 biți de date, 1 bit de start, paritate impară, 2 biți de stop",
