@@ -624,7 +624,7 @@
       "Adevărat",
       "Fals"
     ],
-    "answer": "Adevărat"
+    "answer": "Fals"
   },
   {
     "question": "Cum se poate prescurta următoarea configurație pentru parametrii de configurare: 6 biți de date, 1 bit de start, paritate impară, 2 biți de stop",
