@@ -1082,12 +1082,12 @@
   {
     "question": "Transformarea în digital a unei mărimi analogice αV, se face utilizându-se formula:",
     "options": [
-      "(2^r) ⋅ (αV)/(V_ref - V_ref)",
-      "(2^r - 1) ⋅ (αV)/√(V_ref - V_ref)",
-      "(2^r - 1) ⋅ (αV)/√(V_ref - V_ref)",
-      "(2^r - 1) ⋅ (αV)/√(V_ref)"
+      "(2^r) ⋅ (αV)/(V_ref+ - V_ref-)",
+      "(2^r - 1) ⋅ (αV * 2^r)/(V_ref+ - V_ref-)",
+      "(2^r - 1) ⋅ (αV)/(V_ref+ - V_ref-)",
+      "(2^r - 1) ⋅ (αV * 2^r)/(V_ref)"
     ],
-    "answer": ["(2^r - 1) ⋅ (αV)/√(V_ref - V_ref)"]
+    "answer": ["(2^r - 1) ⋅ (αV)/(V_ref+ - V_ref-)"]
   },
   {
     "question": "Câte niveluri de cuantizare se va împărți un semnal analogic, pentru un ADC cu rezoluție de 9 biți?",
