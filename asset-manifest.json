@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/smcquiz/static/css/main.1b19b685.css",
+    "main.js": "/smcquiz/static/js/main.e5c53988.js",
+    "static/js/453.e79d157d.chunk.js": "/smcquiz/static/js/453.e79d157d.chunk.js",
+    "index.html": "/smcquiz/index.html",
+    "main.1b19b685.css.map": "/smcquiz/static/css/main.1b19b685.css.map",
+    "main.e5c53988.js.map": "/smcquiz/static/js/main.e5c53988.js.map",
+    "453.e79d157d.chunk.js.map": "/smcquiz/static/js/453.e79d157d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b19b685.css",
+    "static/js/main.e5c53988.js"
+  ]
+}
