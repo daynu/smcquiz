@@ -72,7 +72,7 @@
       "Filtrarea zgomotelor pentru funcția de captură a evenimentelor externe",
       "Memorarea temporară a datelor în cazul ADC"
     ],
-    "answer": ["Prevenirea deteriorării rezultatului conversiei în etapa de eșantionare/reținere", "Filtrarea zgomotelor pentru funcția de captură a evenimentelor externe"]
+    "answer": ["Prevenirea deteriorării rezultatului conversiei în etapa de eșantionare/reținere"]
   },
   {
     "question": "Un timer simplu:",
