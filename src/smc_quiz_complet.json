@@ -1,0 +1,650 @@
+[
+  {
+    "question": "Care dintre următoarele enunțuri reprezintă linii de comunicație SPI:",
+    "options": [
+      "MISO",
+      "SPL_OUT",
+      "MOSI",
+      "SPL_IN",
+      "MOSO",
+      "SS",
+      "MISI",
+      "SCK"
+    ],
+    "answer": ["MISO", "MOSI", "SCK", "SS"]
+  },
+  {
+    "question": "Memoria de tip flash este o memorie de tip:",
+    "options": [
+      "RAM",
+      "ROM",
+      "Hibrid",
+      "Nici una dintre variante"
+    ],
+    "answer": "Hibrid"
+  },
+  {
+    "question": "Care sunt tipurile de erori care pot apărea la o conversie analog numerică?",
+    "options": [
+      "Erori de amplificare",
+      "Erori DNL/INL",
+      "Erori de integrare",
+      "Erori de compensare"
+    ],
+    "answer": ["Erori de compensare", "Erori de amplificare", "Erori DNL/INL"]
+  },
+  {
+    "question": "Care dintre următoarele registre sunt importante pentru configurarea unui PORT de intrare/ieșire?",
+    "options": [
+      "Registrul de setare a direcției datelor",
+      "Registrul corespunzător portului",
+      "Registrul de intrare/ieșire digitală",
+      "Registrul de configurare a funcțiilor speciale"
+    ],
+    "answer": ["Registrul de setare a direcției datelor", "Registrul corespunzător portului", "Registrul de configurare a funcțiilor speciale"]
+  },
+  {
+    "question": "Ce presupune ACK în cadrul comunicării I2C?",
+    "options": [
+      "Presupune trecerea SDA în starea low",
+      "Presupune trecerea SDA în starea high",
+      "Presupune trecerea SCL în starea low",
+      "Presupune trecerea SCL în starea high"
+    ],
+    "answer": "Presupune trecerea SDA în starea low"
+  },
+  {
+    "question": "Care caracteristici ale circuitului de prescalare sunt adevărate:",
+    "options": [
+      "Se recomandă utilizarea unei valori cât mai apropiate de rezoluția semnalului de ceas",
+      "Împarte (divizează) un semnal de ceas la orice valoare",
+      "Împarte (divizează) un semnal de ceas la anumite valori",
+      "Se recomandă utilizarea celei mai mici valori de prescalare"
+    ],
+    "answer": ["Împarte (divizează) un semnal de ceas la anumite valori", "Se recomandă utilizarea celei mai mici valori de prescalare"]
+  },
+  {
+    "question": "Care este rolul unui circuit precum cel din imagine:",
+    "options": [
+      "Prevenirea deteriorării rezultatului conversiei pentru comparatoare",
+      "Prevenirea deteriorării rezultatului conversiei în etapa de eșantionare/reținere",
+      "Filtrarea zgomotelor pentru funcția de captură a evenimentelor externe",
+      "Memorarea temporară a datelor în cazul ADC"
+    ],
+    "answer": ["Prevenirea deteriorării rezultatului conversiei în etapa de eșantionare/reținere", "Filtrarea zgomotelor pentru funcția de captură a evenimentelor externe"]
+  },
+  {
+    "question": "Un timer simplu:",
+    "options": [
+      "Poate avea două moduri de funcționare: Normal sau CTC",
+      "Își incrementează valoarea (un registru) la fiecare ciclu de ceas",
+      "Funcționează doar atunci când procesorul execută cod activ",
+      "Poate trimite date direct către porturile de comunicație serială fără intervenția procesorului",
+      "Numără un interval de timp bazat pe un ceas intern al microcontrolerului",
+      "Numărarea poate să fie în ambele sensuri up sau down",
+      "În modul CTC, timerul continuă să numere până la finalul intervalului de incrementare, indiferent dacă atinge valoarea de comparație"
+    ],
+    "answer": ["Poate avea două moduri de funcționare: Normal sau CTC", "Își incrementează valoarea (un registru) la fiecare ciclu de ceas", "Numără un interval de timp bazat pe un ceas intern al microcontrolerului", "Numărarea poate să fie în ambele sensuri up sau down"]
+  },
+  {
+    "question": "Care sunt modurile de adresare pentru comunicția I2C?",
+    "options": [
+      "Adresare pe 10 biți",
+      "Adresare pe 7 biți",
+      "Toate variantele",
+      "Adresare pe 9 biți",
+      "Adresare pe 8 biți"
+    ],
+    "answer": ["Adresare pe 7 biți", "Adresare pe 10 biți"]
+  },
+  {
+    "question": "Principiul de funcționare al sistemului de întreruperi, înainte de/în timpul și după întrerupere, presupune:",
+    "options": [
+      "Programul execută instrucțiuni în bucla principală de program (MPF)",
+      "Funcția de tratare a întreruperii este executată",
+      "Apare o întrerupere: PC este salvat în stivă: push(PC)",
+      "În PC este salvată adresa 1 din ISR (din tabela vectorilor de întrerupere)",
+      "În PC este adusă valoarea instrucțiunii următoare: pop(PC) + 1"
+    ],
+    "answer": [
+      "Programul execută instrucțiuni în bucla principală de program (MPF)",
+      "Apare o întrerupere: PC este salvat în stivă: push(PC)",
+      "În PC este salvată adresa 1 din ISR (din tabela vectorilor de întrerupere)",
+      "Funcția de tratare a întreruperii este executată",
+      "În PC este adusă valoarea instrucțiunii următoare: pop(PC) + 1"
+    ]
+  },
+  {
+    "question": "Care sunt liniile de comunicație pentru I2C:",
+    "options": [
+      "Txl",
+      "SCL",
+      "MISO",
+      "MOSI",
+      "RxO",
+      "SDA",
+      "SCK"
+    ],
+    "answer": ["SCL", "SDA"]
+  },
+  {
+    "question": "Alegeți răspunsurile care reprezintă caracteristici ale unui releu:",
+    "options": [
+      "Facilitează izolarea galvanică în circuitul în care este utilizat",
+      "Utilizat pentru a închide sau deschide un circuit electric",
+      "Conține două zone: de comandă (curenți de valori mici) și de putere (curenți de valori mari)",
+      "Facilitează reducerea de putere consumată când este alimentat direct de la microcontroller.",
+      "Conține un microcircuit care permite izolarea galvanică față de circuitul de bază"
+    ],
+    "answer": [
+      "Utilizat pentru a închide sau deschide un circuit electric",
+      "Facilitează izolarea galvanică în circuitul în care este utilizat",
+      "Conține două zone: de comandă (curenți de valori mici) și de putere (curenți de valori mari)"
+    ]
+  },
+  {
+    "question": "Alegeți resursele opționale pe care trebuie să le conțină un microcontroller",
+    "options": [
+      "Convertor Analog-Digital",
+      "Un sistem de întreruperi",
+      "Memorie de date de tip EEPROM",
+      "Unități de intrare ieșire numerice",
+      "Facilități de optimizare a consumului",
+      "Modul Comparator"
+    ],
+    "answer": ["Convertor Analog-Digital", "Facilități de optimizare a consumului", "Modul Comparator", "Memorie de date de tip EEPROM"]
+  },
+  {
+    "question": "Care dintre următoarele caracteristici sunt specifice unui circuit de tip Trigger-Schmitt?",
+    "options": [
+      "Facilitează compararea a două semnale analogice",
+      "Facilitează compararea a două semnale digitale",
+      "Utilizează un singur prag pentru evaluarea tensiunii de intrare",
+      "Facilitează eliminarea fluctuației tensiunii de intrare pe pin",
+      "Utilizează două praguri pentru evaluarea tensiunii de intrare"
+    ],
+    "answer": ["Facilitează eliminarea fluctuației tensiunii de intrare pe pin", "Utilizează două praguri pentru evaluarea tensiunii de intrare"]
+  },
+  {
+    "question": "Care dintre următoarele circuite intră în componenta unui sincronizator?",
+    "options": [
+      "Unități de memorie de tip D",
+      "Un circuit de tip latch",
+      "Un comparator digital",
+      "Un circuit de tip Trigger Schmitt",
+      "Un circuit de eșantionare-reținere"
+    ],
+    "answer": ["Un circuit de tip Trigger Schmitt", "Un circuit de tip latch"]
+  },
+  {
+    "question": "Cum se pot elimina oscilațiile nedorite apărute la apăsarea/comutarea unui buton?",
+    "options": [
+      "Cu ajutorul unui regulator PI",
+      "Cu ajutorul unui filtru RC",
+      "Cu ajutorul unui filtru antialias",
+      "Cu ajutorul unui filtru trece-bandă",
+      "Cu ajutorul unor filtre software"
+    ],
+    "answer": ["Cu ajutorul unui filtru RC", "Cu ajutorul unor filtre software"]
+  },
+  {
+    "question": "Ce conține fiecare poziție din tabelul vectorilor de întrerupere?",
+    "options": [
+      "Valoarea priorității asociate întreruperii curente",
+      "Valoarea hex a locației de început a programului utilizator",
+      "Adresa de memorie care indică locația de start a ISR-ului asociat",
+      "Adresa de întoarcere după finalizarea codului din întrerupere"
+    ],
+    "answer": "Adresa de memorie care indică locația de start a ISR-ului asociat"
+  },
+  {
+    "question": "Ce este rezoluția unui ADC?",
+    "options": [
+      "Un factor invers proporțional cu eroarea de cuantizare",
+      "Un factor direct proporțional cu eroarea de cuantizare",
+      "Numărul de stări de ieșire posibile",
+      "Numărul de oscilații necesare pentru a se realiza o conversie",
+      "Frecvența la care se face conversia"
+    ],
+    "answer": ["Numărul de stări de ieșire posibile", "Un factor direct proporțional cu eroarea de cuantizare"]
+  },
+  {
+    "question": "Alegeți caracteristici ale memoriei EEPROM:",
+    "options": [
+      "Reprogramabilă",
+      "Pot fi șterse locații individuale",
+      "Viteză mică de scriere",
+      "Viteză mare de operare",
+      "Necesită un controler specializat de Scriere/Citire",
+      "Nu pot fi șterse zone individuale",
+      "Volatilă",
+      "Nevolatilă"
+    ],
+    "answer": ["Nevolatilă", "Reprogramabilă", "Pot fi șterse locații individuale", "Viteză mică de scriere"]
+  },
+  {
+    "question": "Un timer se poate utiliza pentru a:",
+    "options": [
+      "Controla direct viteza de execuție a instrucțiunilor procesorului",
+      "Valida timpul de acțiune a unui semnal analogic, pe modul configurat de intrare (pentru Porturi)",
+      "Măsura frecvența unui semnal extern",
+      "Genera semnale periodice (cu formă specifică)",
+      "Număra un anumit interval de timp",
+      "Genera întreruperi la intervale de timp regulate"
+    ],
+    "answer": ["Număra un anumit interval de timp", "Genera semnale periodice (cu formă specifică)", "Genera întreruperi la intervale de timp regulate", "Măsura frecvența unui semnal extern"]
+  },
+  {
+    "question": "Conversia numărului binar 11011 în zecimal este?",
+    "options": [],
+    "answer": "27"
+  },
+  {
+    "question": "Care dintre următoarele caracteristici sunt specifice arhitecturii Harvard?",
+    "options": [
+      "Are implementat un mecanism de tip pipeline",
+      "Are o memorie comună pentru date și instrucțiuni",
+      "Are o singură magistrală",
+      "Permite execuția unei instrucțiuni într-un ciclu de clock"
+    ],
+    "answer": ["Are implementat un mecanism de tip pipeline", "Permite execuția unei instrucțiuni într-un ciclu de clock"]
+  },
+  {
+    "question": "Care dintre următoarele activități pot conduce la apariția unei întreruperi?",
+    "options": [
+      "Sfârșitul unei perioade de timp",
+      "Sfârșitul unei operații de transmisie sau recepție de date",
+      "Schimbarea nivelului logic al unui pin",
+      "Sfârșitul unei conversii Analog-Numerice"
+    ],
+    "answer": [
+      "Sfârșitul unei perioade de timp",
+      "Sfârșitul unei operații de transmisie sau recepție de date",
+      "Schimbarea nivelului logic al unui pin",
+      "Sfârșitul unei conversii Analog-Numerice"
+    ]
+  },
+  {
+    "question": "Care dintre următoarele afirmații legate de protecția pinilor digitali este adevărată?",
+    "options": [
+      "Utilizarea unor senzori de temperatură interni care să monitorizeze temperatura cipului",
+      "Protecție utilizând diode specializate la pinii de intrare/ieșire pentru descărcările electrice statice",
+      "Utilizarea de circuite de limitare a tensiunii la un nivel sigur",
+      "Utilizarea de diode de protecție la alimentare care blochează curentul invers",
+      "Utilizarea unor limitatoare de curent sau circuite de protecție la scurtcircuit"
+    ],
+    "answer": [
+      "Protecție utilizând diode specializate la pinii de intrare/ieșire pentru descărcările electrice statice",
+      "Utilizarea de circuite de limitare a tensiunii la un nivel sigur",
+      "Utilizarea unor limitatoare de curent sau circuite de protecție la scurtcircuit",
+      "Utilizarea de diode de protecție la alimentare care blochează curentul invers",
+      "Utilizarea unor senzori de temperatură interni care să monitorizeze temperatura cipului"
+    ]
+  },
+  {
+    "question": "Unitatea Aritmetică și Logică conține:",
+    "options": [
+      "Bloc de adresă",
+      "Registre generale",
+      "Registrul acumulator",
+      "Registre de stare",
+      "Bloc de instrucțiuni",
+      "Numărător program"
+    ],
+    "answer": ["Registre generale", "Registrul acumulator", "Registre de stare"]
+  },
+  {
+    "question": "Împărțirea unui interval în subintervale măsurabile se realizează pe parcursul procesului de:",
+    "options": [
+      "eșantionare",
+      "incrementare",
+      "cuantizare",
+      "deretinere"
+    ],
+    "answer": "cuantizare"
+  },
+  {
+    "question": "Un circuit de tip Rezonator este format din:",
+    "options": [
+      "Un oscilator RC",
+      "Condensatoare",
+      "Rezistori",
+      "Diode",
+      "Un oscilator cu cuarț",
+      "Bobine"
+    ],
+    "answer": ["Un oscilator cu cuarț", "Condensatoare"]
+  },
+  {
+    "question": "Un convertor analog numeric cu aproximații succesive este cu buclă de reglare",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Adevărat"
+  },
+  {
+    "question": "Care dintre următoarele afirmații reprezintă un tip de registru:",
+    "options": [
+      "Registru de buffer",
+      "Registru de adresă",
+      "Registru de stare",
+      "Registru de control/configurare",
+      "Registru de magistrală",
+      "Registru de date"
+    ],
+    "answer": ["Registru de date", "Registru de adresă", "Registru de stare", "Registru de control/configurare"]
+  },
+  {
+    "question": "Este adevărată afirmația: un Timer monitorizează semnale care au o distribuție aleatoare în timp",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Fals"
+  },
+  {
+    "question": "Ce presupune condiția de Start de la protocolul I2C?",
+    "options": [
+      "Semnalul SDA pe front descrescător (high --> low)",
+      "Semnalul SCL pe nivel low",
+      "Semnalul SDA pe front crescător (low --> high)",
+      "Semnalul SCL pe nivel high"
+    ],
+    "answer": ["Semnalul SDA pe front descrescător (high --> low)", "Semnalul SCL pe nivel high"]
+  },
+  {
+    "question": "Alegeți caracteristici ale unui ciclu de instrucțiune:",
+    "options": [
+      "Conține un număr fix de pulsuri, indiferent de instrucțiune",
+      "Este obținut din n pulsuri de ceas",
+      "Este generat de modulul intern de timer",
+      "Este obținut de la circuitul oscilator"
+    ],
+    "answer": ["Este obținut de la circuitul oscilator", "Este obținut din n pulsuri de ceas"]
+  },
+  {
+    "question": "Standardul RS-232 este responsabil pentru:",
+    "options": [
+      "Mecanismul de transfer al datelor din punct de vedere al specificațiilor electrice",
+      "Mecanismul de transfer al datelor din punct de vedere al numărului de biți",
+      "Definirea semnalelor electrice care sunt utilizate de Microcontroller pentru comunicația UART",
+      "Metoda prin care se pot conecta mai multe dispozitive UART la un master"
+    ],
+    "answer": "Mecanismul de transfer al datelor din punct de vedere al specificațiilor electrice"
+  },
+  {
+    "question": "Alegeți resursele pe care trebuie să le conțină obligatoriu un microcontroller",
+    "options": [
+      "intrări și ieșiri numerice",
+      "o unitate centrală",
+      "un sistem de întreruperi",
+      "memorie de tip EEPROM"
+    ],
+    "answer": ["o unitate centrală", "intrări și ieșiri numerice", "un sistem de întreruperi"]
+  },
+  {
+    "question": "Care dintre următoarele afirmații reprezintă funcționalități de bază pentru un depanator încorporat (embedded):",
+    "options": [
+      "Inspecția variabilelor",
+      "Vizualizarea memoriei",
+      "Urmărirea apelurilor de funcție",
+      "Execuție pas cu pas",
+      "Compilarea automată a codului sursă în limbaj natural",
+      "Punct de întrerupere (breakpoint)",
+      "Modificarea valorilor variabilelor în timpul rulării",
+      "Optimizarea automată a performanței aplicației în timp real"
+    ],
+    "answer": [
+      "Punct de întrerupere (breakpoint)",
+      "Execuție pas cu pas",
+      "Inspecția variabilelor",
+      "Vizualizarea memoriei",
+      "Urmărirea apelurilor de funcție"
+    ]
+  },
+  {
+    "question": "Unitatea centrală de procesare:",
+    "options": [
+      "Monitorizează și controlează toate procesele din interiorul unui MC",
+      "Nu poate executa instrucțiuni de ramificare",
+      "Conexiune cu exteriorul utilizând magistrale de date, adrese și control",
+      "Formată din două unități funcționale: UAL și UC",
+      "Unitatea centrală de procesare conține memoria RAM și ROM integrată"
+    ],
+    "answer": [
+      "Monitorizează și controlează toate procesele din interiorul unui MC",
+      "Formată din două unități funcționale: UAL și UC",
+      "Conexiune cu exteriorul utilizând magistrale de date, adrese și control"
+    ]
+  },
+  {
+    "question": "Care este rolul unui rezistor de pull-up?",
+    "options": [
+      "De a evita apariția unei stări de instabilitate la intrarea unui pin când este utilizat un buton",
+      "De a furniza o sursă de tensiune constantă",
+      "De a conecta un pin la o tensiune predefinită",
+      "De a activa sistemul I/O al microcontrolerului"
+    ],
+    "answer": [
+      "De a conecta un pin la o tensiune predefinită",
+      "De a evita apariția unei stări de instabilitate la intrarea unui pin când este utilizat un buton"
+    ]
+  },
+  {
+    "question": "Caracteristici ale memoriei SRAM:",
+    "options": [
+      "Operare la viteze mari",
+      "Reprogramabilă",
+      "Necesită controller SRAM",
+      "Viteză mică de funcționare",
+      "Nevolatilă",
+      "Volatilă"
+    ],
+    "answer": ["Volatilă", "Operare la viteze mari", "Reprogramabilă"]
+  },
+  {
+    "question": "Conversia numărului binar 1001 în zecimal este?",
+    "options": [],
+    "answer": "9"
+  },
+  {
+    "question": "Este adevărată afirmația: un counter monitorizează semnale care au o distribuție aleatoare în timp",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Adevărat"
+  },
+  {
+    "question": "Tabela vectorilor de întrerupere:",
+    "options": [
+      "este identică ca valori cu valorile din PC",
+      "este reprezentată sub forma de tabel ce conține informații despre întreruperi",
+      "este legătura între întrerupere și funcția EN corespunzătoare",
+      "este legătura între întreruperi și rutina de întrerupere",
+      "facilitează prioritizarea sistemului de întreruperi"
+    ],
+    "answer": [
+      "este legătura între întreruperi și rutina de întrerupere",
+      "este reprezentată sub forma de tabel ce conține informații despre întreruperi"
+    ]
+  },
+  {
+    "question": "Din ce este format un rezonator?",
+    "options": [
+      "Rezistențe",
+      "Filtru trece-jos",
+      "Condensatoare",
+      "Oscilator cu cuarț"
+    ],
+    "answer": ["Oscilator cu cuarț", "Condensatoare"]
+  },
+  {
+    "question": "Este corectă conexiunea cu registru de pull-down, din schema următoare?",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Adevărat"
+  },
+  {
+    "question": "Interfața I2C este o interfață de tipul:",
+    "options": [
+      "slave-slave",
+      "master-slave",
+      "asincronă",
+      "full-duplex",
+      "half-duplex",
+      "sincronă"
+    ],
+    "answer": ["master-slave", "sincronă", "half-duplex"]
+  },
+  {
+    "question": "Sunt instrucțiunile de tip CISC mai rapide și eficiente decât cele de tip RISC?",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Fals"
+  },
+  {
+    "question": "Metoda de citire a timer-counter folosind întreruperi:",
+    "options": [
+      "Avantajul metodei este dat de utilizarea la maxim a resurselor timer-ului",
+      "Avantajul metodei este dat de viteza de citire software a timer-ului",
+      "Presupune citirea anumitor registre și așteptarea în bucle software a unor valori din registre de stare",
+      "Dezavantajul metodei este dat de incapacitatea de a citi un singur text al semnalului de ceas"
+    ],
+    "answer": [
+      "Presupune citirea anumitor registre și așteptarea în bucle software a unor valori din registre de stare",
+      "Avantajul metodei este dat de utilizarea la maxim a resurselor timer-ului"
+    ]
+  },
+  {
+    "question": "Marcați care dintre următoarele afirmații sunt corecte, legate de comunicații seriale:",
+    "options": [
+      "Interfețele sincrone folosesc pentru receptor un clock sincronizat cu cel al emițătorului",
+      "Interfața sincronă folosește principiul supresionării receptorului pentru sincronizare",
+      "Interfețele asincrone conțin două semnale de clock resincronizate",
+      "Interfața serială trimite datele secvențial bit după bit",
+      "Interfețele paralele transmit biții unul după altul, secvențial, la viteze mai mari decât interfața serială"
+    ],
+    "answer": [
+      "Interfața serială trimite datele secvențial bit după bit",
+      "Interfețele sincrone folosesc pentru receptor un clock sincronizat cu cel al emițătorului",
+      "Interfețele asincrone conțin două semnale de clock resincronizate"
+    ]
+  },
+  {
+    "question": "Un timer care funcționează pentru generarea de PWM:",
+    "options": [
+      "Utilizat pentru module de conversie digitale analogice",
+      "Generează un semnal digital cu o frecvență constantă",
+      "Generează un semnal digital cu o frecvență variabilă",
+      "Generează un semnal cu factor de umplere constant",
+      "Generează un semnal cu factor de umplere variabil"
+    ],
+    "answer": [
+      "Generează un semnal digital cu o frecvență constantă",
+      "Generează un semnal cu factor de umplere variabil",
+      "Utilizat pentru module de conversie digitale analogice"
+    ]
+  },
+  {
+    "question": "Conceptul de metastabilitate se caracterizează prin:",
+    "options": [
+      "Poate fi complet eliminată prin simpla creștere a frecvenței ceasului",
+      "Este un fenomen predictibil și apare periodic în circuite",
+      "Nu este cunoscută pentru o perioadă foarte scurtă de timp starea în care se află pinul",
+      "Apare în situația în care semnalele de intrare sunt schimbate aproape simultan cu semnalele de ceas",
+      "O stare instabilă în care semnalele de intrare pot fi într-o zonă de tranziție între două stări logice",
+      "Apare doar în sistemele analogice"
+    ],
+    "answer": [
+      "O stare instabilă în care semnalele de intrare pot fi într-o zonă de tranziție între două stări logice",
+      "Nu este cunoscută pentru o perioadă foarte scurtă de timp starea în care se află pinul",
+      "Apare în situația în care semnalele de intrare sunt schimbate aproape simultan cu semnalele de ceas"
+    ]
+  },
+  {
+    "question": "Care dintre următoarele afirmații reprezintă etape în procesul de captură de evenimente externe:",
+    "options": [
+      "Alegerea unui timer cu capabilități de capturare evenimente externe",
+      "Alegerea unui prescaler care să faciliteze captura evenimentelor externe",
+      "Configurarea pinului de captură a intrării pentru a declanșa pe schimbarea frontului semnalului",
+      "Configurarea modulului comparator pentru a determina timpul capturii relativ la captura anterioară"
+    ],
+    "answer": [
+      "Alegerea unui timer cu capabilități de capturare evenimente externe",
+      "Alegerea unui prescaler care să faciliteze captura evenimentelor externe",
+      "Configurarea pinului de captură a intrării pentru a declanșa pe schimbarea frontului semnalului"
+    ]
+  },
+  {
+    "question": "Se poate trage un RTC?",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Fals"
+  },
+  {
+    "question": "Este următoarea definiție corectă: Lățimea sa de bandă se referă la intervalul de frecvențe al semnalului analogic pe care ADC-ul poate să-l măsoare și să-l convertească în mod eficient, fără a introduce distorsiuni semnificative",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Adevărat"
+  },
+  {
+    "question": "Pentru sincronizarea E cu R la comunicația UART este nevoie ca:",
+    "options": [
+      "R să realizeze supraesantionarea mesajului primit pentru sincronizarea cu E",
+      "Să aibă implementat un mecanism de memorare a datelor venite până când toți biții sunt disponibili la receptor",
+      "E să realizeze supraesantionarea mesajului primit pentru sincronizarea cu R",
+      "Să se utilizeze un registru cu depășire și un buffer pentru preluarea corectă a datelor"
+    ],
+    "answer": [
+      "R să realizeze supraesantionarea mesajului primit pentru sincronizarea cu E",
+      "Să se utilizeze un registru cu depășire și un buffer pentru preluarea corectă a datelor"
+    ]
+  },
+  {
+    "question": "Este următoarea afirmație corectă: Etapa de codificare și stocare implică codificarea și stocarea valorilor cuantizate într-o formă digitală, pentru ca acestea să poată fi procesate sau stocate de sistemul digital",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Adevărat"
+  },
+  {
+    "question": "La interfața de comunicație sincronă este necesar să se stabilească de la începutul comunicației rata de transfer",
+    "options": [
+      "Adevărat",
+      "Fals"
+    ],
+    "answer": "Adevărat"
+  },
+  {
+    "question": "Cum se poate prescurta următoarea configurație pentru parametrii de configurare: 6 biți de date, 1 bit de start, paritate impară, 2 biți de stop",
+    "options": [
+      "6011",
+      "6N12",
+      "602",
+      "6N2",
+      "6012"
+    ],
+    "answer": "602"
+  },
+  {
+    "question": "Sistemul de întreruperi poate fi prioritizat utilizandu-se:",
+    "options": [
+      "Un sistem de prioritizare software",
+      "Un tabel al priorităților",
+      "Rutina de tratare a întreruperii",
+      "Un tabel al vectorilor de întrerupere"
+    ],
+    "answer": ["Un sistem de prioritizare software", "Un tabel al priorităților"]
+  }
+]
