@@ -95,6 +95,9 @@ const Quiz = () => {
           {questions.map((q, index) => (
             <div key={index} className="question-block">
               <p className="question-text">{index + 1}. {q.question}</p>
+              {q.image && (
+                <img src={`${process.env.PUBLIC_URL}${q.image}`} alt={`Question ${index + 1}`} className="question-image" height={420} />
+              )}
               
               {q.options && q.options.length > 0 ? (
                 q.options.map((option, idx) => (
@@ -143,6 +146,9 @@ const Quiz = () => {
             return (
               <div key={index} className="question-block">
                 <p className="question-text">{index + 1}. {q.question}</p>
+                {q.image && (
+                <img src={`${process.env.PUBLIC_URL}${q.image}`} alt={`Question ${index + 1}`} className="question-image" height={420} style={{maxWidth: '100%'}} />
+              )}
                 
                 {q.options && q.options.length > 0 ? (
                   q.options.map((option, idx) => {

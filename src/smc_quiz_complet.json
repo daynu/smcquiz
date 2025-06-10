@@ -65,6 +65,7 @@
   },
   {
     "question": "Care este rolul unui circuit precum cel din imagine:",
+    "image" : "/deteriorarerez.jpg",
     "options": [
       "Prevenirea deteriorării rezultatului conversiei pentru comparatoare",
       "Prevenirea deteriorării rezultatului conversiei în etapa de eșantionare/reținere",
@@ -481,12 +482,13 @@
     "answer": ["Oscilator cu cuarț", "Condensatoare"]
   },
   {
-    "question": "Este corectă conexiunea cu registru de pull-down, din schema următoare?",
+    "question": "Este corectă conexiunea cu registru de pull-up din schema următoare?",
+    "image" : "/pullup.jpg",
     "options": [
       "Adevărat",
       "Fals"
     ],
-    "answer": "Adevărat"
+    "answer": "Fals"
   },
   {
     "question": "Interfața I2C este o interfață de tipul:",
