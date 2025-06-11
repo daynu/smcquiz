@@ -690,7 +690,7 @@
     "question": "Arhitectura ATmega328P presupune:",
     "options": [
       "Zona de Bootloader și cea de Aplicație sunt situate în memoria program",
-      "O arhitectură de tip Von-Neumann",
+      "O arhitectură de tip Harvard",
       "Memorie de date SRAM și EEPROM",
       "Memorie program Flash"
     ],
