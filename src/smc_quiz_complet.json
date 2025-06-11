@@ -1026,6 +1026,6 @@
   },
   {
     "question": "Care este numărul de biți definiți de producător pentru mesajele de adresare I2C?",
-    "answer": 4
+    "answer": "4"
   }
 ]
