@@ -102,9 +102,9 @@
     "question": "Principiul de funcționare al sistemului de întreruperi, înainte de/în timpul și după întrerupere, presupune:",
     "options": [
       "Programul execută instrucțiuni în bucla principală de program (MPF)",
-      "Funcția de tratare a întreruperii este executată",
       "Apare o întrerupere: PC este salvat în stivă: push(PC)",
       "În PC este salvată adresa 1 din ISR (din tabela vectorilor de întrerupere)",
+      "Funcția de tratare a întreruperii este executată",
       "În PC este adusă valoarea instrucțiunii următoare: pop(PC) + 1"
     ],
     "answer": [
@@ -911,14 +911,6 @@
       "Prin modificarea mecanismului de activare a sistemului de întreruperi"
     ],
     "answer": ["Schimbarea valorii de prescalare", "Schimbarea valorii maxime la care contorul timer-ului ajunge înainte de a se reseta", "Modificarea frecvenței ceasului de sistem"]
-  },
-  {
-    "question": "Este corectă conexiunea cu rezistor de pull-up, din schema următoare?",
-    "options": [
-      "Adevărat",
-      "Fals"
-    ],
-    "answer": ["Fals"]
   },
   {
     "question": "La ce fel de comparații poate fi utilizat un comparator?",
