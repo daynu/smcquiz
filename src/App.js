@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import quizData from './smc_quiz_complet.json';
 import './Quiz.css';
+import quizData2 from './intrebari_SMC.json';
 
 const Quiz = () => {
   const [questions, setQuestions] = useState([]);
@@ -9,12 +10,23 @@ const Quiz = () => {
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [pointsPerQuestion, setPointsPerQuestion] = useState([]);
+  const [quizDB, setQuizDB] = useState(quizData);
 
   useEffect(() => {
-    const shuffled = [...quizData].sort(() => 0.5 - Math.random());
+    const shuffled = [...quizDB].sort(() => 0.5 - Math.random());
     setQuestions(shuffled.slice(0, 25));
     console.log(quizData.length);
-  }, []);
+  }, [quizDB]);
+
+  useEffect(() => {
+    // Reset state when quizDB changes
+    setAnswers({});
+    setTextAnswers({});
+    setSubmitted(false);
+    setScore(0);
+    setPointsPerQuestion([]);
+  }
+  , [quizDB]);
 
   // Handles checkbox selection for multi-select
   const handleChange = (qIndex, option) => {
@@ -90,6 +102,9 @@ const Quiz = () => {
   return (
     <div className="quiz-container">
       <h1 className="quiz-title">SMC Quiz</h1>
+      <button className="switch-quiz-button" onClick={() => setQuizDB(quizDB === quizData ? quizData2 : quizData)}>
+        {quizDB === quizData ? "Switch to SMC Quiz++" : "Switch to SMC Quiz"}
+      </button>
       {!submitted ? (
         <form onSubmit={(e) => { e.preventDefault(); handleSubmit(); }}>
           {questions.map((q, index) => (
