@@ -423,20 +423,6 @@
     "answer": ["Volatilă", "Operare la viteze mari", "Reprogramabilă"]
   },
   {
-    "question": "Caracteristici ale memoriei EEPROM:",
-    "options": [
-      "Operare la viteze mari",
-      "Reprogramabilă",
-      "Necesită controller specializat de Scriere/Citire",
-      "Viteză mică de scriere",
-      "Nevolatilă",
-      "Volatilă",
-      "Pot fi șterse locații individuale",
-      "Nu pot fi șterse zone individuale"
-    ],
-    "answer": ["Nevolatilă", "Viteză mică de scriere", "Reprogramabilă", "Pot fi șterse locații individuale"]
-  },
-  {
     "question": "Conversia numărului binar 1001 în zecimal este?",
     "options": [],
     "answer": "9"
