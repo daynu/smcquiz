@@ -13,7 +13,8 @@ const Quiz = () => {
   const [quizDB, setQuizDB] = useState(quizData);
 
   useEffect(() => {
-    const shuffled = [...quizDB].sort(() => 0.5 - Math.random());
+    let shuffled = [...quizDB].sort(() => 0.5 - Math.random());
+    shuffled = shuffled.slice(0, 25); 
     setQuestions(
       shuffled.map(q => ({
         ...q,
