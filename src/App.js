@@ -14,9 +14,22 @@ const Quiz = () => {
 
   useEffect(() => {
     const shuffled = [...quizDB].sort(() => 0.5 - Math.random());
-    setQuestions(shuffled.slice(0, 25));
+    setQuestions(
+      shuffled.map(q => ({
+        ...q,
+        options: q.options ? shuffleOptions(q.options) : [],
+      }))
+    );
     console.log(quizData.length);
   }, [quizDB]);
+
+  function shuffleOptions(options) {
+    return options.sort(() => Math.random() - 0.5);
+  }
+
+
+
+
 
   useEffect(() => {
     // Reset state when quizDB changes
