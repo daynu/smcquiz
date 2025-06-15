@@ -43,7 +43,6 @@
       "Eroarea de offset",
       "Eroarea de cuantizare",
       "Erori de amplificare",
-      "Erori de condensare/compensare",
       "Erori DNL/IDNL"
     ]
   },
@@ -1158,13 +1157,14 @@
       "Utilizarea unor senzori de temperatură interni care să monitorizeze temperatura cipului",
       "Utilizarea de circuite de limitare a tensiunii la un nivel sigur",
       "Utilizarea de diode de protecție la alimentare care blochează curentul invers",
-      "Protecție utilizând diode specializate la pinii de intrare/ieșire pentru descărcările electrice statice",
-      "Toate variantele de mai sus"
+      "Protecție utilizând diode specializate la pinii de intrare/ieșire pentru descărcările electrice statice"
     ],
     "answer": [
       "Utilizarea unor limitatoare de curent sau circuite de protecție la scurtcircuit",
       "Utilizarea de circuite de limitare a tensiunii la un nivel sigur",
-      "Protecție utilizând diode specializate la pinii de intrare/ieșire pentru descărcările electrice statice"
+      "Protecție utilizând diode specializate la pinii de intrare/ieșire pentru descărcările electrice statice",
+      "Utilizarea unor senzori de temperatură interni care să monitorizeze temperatura cipului",
+      "Utilizarea de diode de protecție la alimentare care blochează curentul invers"
     ]
   },
   {
